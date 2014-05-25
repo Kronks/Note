@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    font-family: calibri;
+    width: 1300px;
+}
+
+.head {
+    background: url("../img/head.png") white no-repeat;
+    width: 1300px;
+    height: 720px;
+    background-position: 50% 0%;
+
+
+}
+.button li{
+    width: 208px;
+    height: 50px;
+    background: #90bf34;
+    border-radius: 25px;
+    list-style: none;
+    margin: 60px 42.5% 10px;
+}
+.button a{
+    text-decoration: none;
+    display: block;
+    line-height: 50px;
+    padding: 0 33px;
+    font-size: 22px;
+    color: #ffffff;
+}
+.button p{
+    font-size: 18px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #cdcdcd;
+    width: 985px;
+}
+
+#body_2{
+    padding-top: 90px;
+    background: url("../img/box.png") no-repeat;
+    background-position: 103.5%;
+    height: 332px;
+    text-align: left;
+    width: 985px;
+    overflow: visible;
+    padding-bottom: 97px;
+    border-bottom: 1px solid #cdcdcd;
+}
+.bright img, .cloud img, .noteok img,.group img, .cal img, .world img, .note img{
+    width: 54px;
+    height: 54px;
+    padding-bottom: 20px;
+}
+.bright{
+    padding-top: 20px;
+    position: relative;
+    float: left;
+    width: 160px;
+    padding-left: 90px;
+}
+.cloud{ width:160px;float: left; padding-top: 20px; }
+.bright p, .cloud p, .group p, .noteok p,.text, .footed_text{ padding-top:20px;line-height: 22px}
+
+#foot{
+    float: left;
+    margin-left: 135px;
+    width: 985px;
+    background: url("..//img/card.png") no-repeat;
+    height: 480px;
+    margin-top: 45px;
+    padding-bottom: 112px;
+    }
+.foot_text{margin-left: 50%; padding-top: 40px}
+.noteok {float: left; padding-top: 20px; margin-left: 50%; width: 150px; }
+.group {float: right; padding-top: 20px;  width: 150px; padding-right: 80px }
+
+#last{
+
+     width: 1300px;
+    height: 555px;
+    margin-top: 555px;
+    background: url("..//img/footer.png")  no-repeat;
+    background-position: right bottom;
+}
+.footed_text h1 {padding-left: 0px; padding-bottom: 30px}
+.footed_text{
+    float: left;
+    margin-left: 155px;
+    padding-bottom: 65px;
+}
+.world {float: left; padding-top: 20px; margin-left: 155px; width: 150px; }
+.note{float: left; padding-top: 20px; margin-left: 150px; width: 150px; }
+.cal{float: left; padding-top: 20px; margin-left: 150px; width: 150px; }
